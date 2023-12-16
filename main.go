@@ -12,6 +12,9 @@ import (
 
 func main() {
 	// Creating GoFr app
+	/*gofr.New():function is a constructor provided by the gofr framework.
+	It allocates memory for a new gofr application instance and initializes its internal state. */
+	//app  becomes the main access point for interaction 
 	app := gofr.New()
 
 	// Running migrations - UP

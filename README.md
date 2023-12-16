@@ -31,5 +31,5 @@ You can update existing product information using a PUT request to the specific 
 -Delete:
 You can remove a product from the system using a DELETE request to the specific product endpoint. The API verifies the product ID and deletes the corresponding record from the database.
 
-### Scalability and Performance: Utilize Docker for easy deployment and containerization for efficient resource management. Database Management: Utilize a MySQL Docker image for reliable and persistent data storage.
-  # Image Used - MySQL
+### Database Management: Utilize a MySQL Docker image for reliable and persistent data storage.
+### Image Used - MySQL
